@@ -38,11 +38,11 @@ for(let i = 0; i < dtmArray.length; i++) {
 type="text/javascript">
 
 function getOption() {
-    selectElement = document.querySelector('#select1');
+    selectElement = document.querySelector('#dropdownselect');
     output = selectElement.options[selectElement.selectedIndex].value;
     document.querySelector('.output').textContent = output;
 }
-   
+
 //Claudia
 
 const myForm = document.getElementById("myForm");
