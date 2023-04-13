@@ -151,8 +151,11 @@ margin-bottom: 8px;
   background: rgba(229, 241, 240, 0.5);
   width: 380px;
   margin: auto;
-  height: 200px;
+  height: 220px;
   margin-bottom: 10px;
+  position: absolute;
+  top: 15px;
+  left: 60px;
 }
 
 .countdownboks {
