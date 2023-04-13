@@ -42,8 +42,7 @@ function getOption() {
     output = selectElement.options[selectElement.selectedIndex].value;
     document.querySelector('.output').textContent = output;
 }
-   }
-}
+   
 //Claudia
 
 const myForm = document.getElementById("myForm");
