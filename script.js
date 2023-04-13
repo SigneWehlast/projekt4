@@ -27,7 +27,7 @@ let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
 let x = setInterval(function() {
 
     let nu = new Date().getTime();
-    
+
     let dageIndtil = countDownBowling - nu;
 
     let dage = Math.floor(dageIndtil / (1000 * 60 * 60 * 24));
@@ -47,5 +47,13 @@ let x = setInterval(function() {
 }, 1000);
 
 //Aimi
-
+//dropdown vises og gemmes
+function show_hide() {
+   var click = document.getElementById("list-items");
+   if(click.style.display ==="none") {
+      click.style.display ="block";
+   } else {
+      click.style.display ="none";
+   }
+}
 //Claudia
