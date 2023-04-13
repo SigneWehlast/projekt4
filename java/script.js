@@ -16,7 +16,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // 1000 = 1 sekund
+  setTimeout(showSlides, 5000); // 1000 = 1 sekund
 }
 
 //Signe
