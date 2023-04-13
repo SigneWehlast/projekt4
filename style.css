@@ -506,6 +506,35 @@ margin-right: auto;
   color: #FFFFFF;
   text-align: center;
 }
+/*dropdown*/
+/* Position for dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* størrelse på knap */
+.buttondrop {
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+/* baggrund for dropdown */
+#list-items {
+ display: none;
+ position: absolute;
+ background-color: white;
+ min-width: 185px;
+
+}
+/* liste */
+#list-items a {
+  display: block;
+  font-size: 18px;
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
 
 /* det der holder tjek boksen det hele */
 .container {
