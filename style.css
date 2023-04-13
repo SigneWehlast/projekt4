@@ -112,10 +112,12 @@ margin-bottom: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #12454F;
     padding: 20px;
-    border: 1px solid black;
+    border-radius: 7px;
+    color: white;
     box-shadow: 0px 0px 10px black;
+    text-align: center;
   }
 
 /*Forsiden*/
