@@ -517,6 +517,7 @@ margin-right: auto;
   padding: 10px 30px;
   font-size: 15px;
   border-radius: 20px;
+  text-align: center;
 }
 /* baggrund for dropdown */
 #list-items {
