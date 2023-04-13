@@ -153,8 +153,11 @@ margin-bottom: 8px;
   background: rgba(229, 241, 240, 0.5);
   width: 380px;
   margin: auto;
-  height: 200px;
+  height: 220px;
   margin-bottom: 10px;
+  position: absolute;
+  top: 15px;
+  left: 60px;
 }
 
 .countdownboks {
@@ -244,6 +247,43 @@ display: none;
 }
 .tekstiboks1{
 
+}
+
+/*Slideshow billeder */
+.slideshow{
+  max-width: 1000px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.billederedigering{
+  width: 500px;
+  height: 250px;
+}
+
+/* prikker under billede */
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dots{
+  text-align:center
+}
+.active {
+  background-color: #717171;
 }
 /*Events siden*/
 .overskifte {
@@ -541,6 +581,19 @@ margin: auto;
 border-radius: 25px;
 }
 
+#dropdownselect {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 186px;
+  font-size: 11px;
+  border-color: #000000;
+  border-style:solid;
+}
+
 .inputfelter {
   display: flex;
   padding: 10px;
@@ -573,45 +626,6 @@ margin-right: auto;
 .tekstitilmeld{
   color: #FFFFFF;
   text-align: center;
-}
-
-/*dropdown*/
-/* Position for dropdown*/
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-/* størrelse på knap */
-.buttondrop {
-  padding: 10px 30px;
-  font-size: 11px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  width: 186px;
-  border-color: #000000;
-  border-style:solid;
-  display: flex;
-  justify-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
-/* baggrund for dropdown */
-#list-items {
- display: none;
- position: absolute;
- background-color: white;
- min-width: 185px;
-
-}
-/* liste */
-#list-items a {
-  display: block;
-  font-size: 18px;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  padding: 10px;
 }
 
 /* det der holder tjek boksen det hele */
