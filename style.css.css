@@ -1,0 +1,843 @@
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+/*Til alle sider*/
+.tekstbold{
+  font-weight: bold;
+
+}
+
+.pogi{
+  margin-left: 15px;
+}
+
+body {
+    background-color: #F6FBFB;
+    font-family: "Plus Jakarta Sans";
+    margin: auto;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+#logo {
+    height: 6vh;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: auto;
+}
+
+.tekstheader {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+/*Navigation*/
+
+/*Footer*/
+footer {
+  padding: 20px;
+  text-align: left;
+  background-color: #939D9F;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+    }
+.pfooter {
+margin-bottom: 15px;
+
+}
+.pfooter h3 {
+font-size: 15px;
+margin-bottom: 8px;
+}
+.pfooter p {
+  font-size: 10px;
+}
+.pfooter p, .footer ul, .sfooter p  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+      }
+.footer {
+  flex: 1;
+  margin-right: 20px;
+  }
+.footer ul li {
+  margin-bottom: 5px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+.pfooter img {
+  display: inline-block;
+   margin: 2px;
+   width: 25px;
+   height: 25px;
+}
+.sfooter p{
+  font-size: 15px;
+  margin-top: 10px;
+      }
+
+/*Specielt på forskellige sider*/
+
+
+/*Forsiden*/
+.overskriftbaggrund {
+    height: 68px;
+    width: 100%;
+    background-color: #12454F;
+    margin-top: -5px;
+    /*columns: 3;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+#sealleevents {
+    color: white;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.eventtilboks{
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.eventtilboks2{
+  display: none;
+  visibility: hidden;
+
+}
+/*Countdown*/
+#countdownid {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+/*slideshow*/
+#slideshowbillede {
+    width: 100%;
+}
+
+/*forsidebokse*/
+.forsideboks {
+    width: 279px;
+    height: 371px;
+    background-color: #ED6B78;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forsideboks1 {
+display: none;
+}
+
+.forsideimgboks {
+    width: 224px;
+    height: 207px;
+    display: block;
+    margin:auto;
+    padding-top: 30px;
+}
+
+.tekstiboks{
+    color: white;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+}
+.tekstiboks1{
+ 
+}
+/*Events siden*/
+.overskifte {
+  height: 68px;
+  width: 100%;
+  background-color: #12454F;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .eventboks1 {
+    padding: 10px;
+    width: 305px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #FF6075;
+    margin-top: -80px;
+    border-style: solid;
+    border-color: grey;
+
+  }
+  .eventboks2 {
+    padding: 10px;
+    width: 305px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #E5F1F0;
+    margin-top: -80px;
+    border-style: solid;
+    border-color: grey;
+
+  }
+
+  .eventoverskift, .eventtekst, .tilmeldtext {
+    color: #12454F;
+  }
+
+  .img {
+    padding: 10px;
+    width: 405px;
+    margin: 20px auto;
+    }
+
+  .img img {
+      max-width:100%;
+      height:auto;
+    }
+
+  .tilbowling, .tilmeldtext{
+font-size: 15px;
+}
+
+.bowlingoverskift, .eventoverskift{
+font-size: 20px;
+}
+
+  .bowlingtekst, .eventtekst {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .læsmere {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .her {
+    text-decoration: none;
+    color: #12454F;
+    text-decoration: underline;
+  }
+
+/*Oprettelse af event*/
+.opret {
+  text-align: center;
+  margin-top: 30px;
+  }
+
+  .dit{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.eget {
+ font-size: 15px;
+}
+
+.arraninfo,.eventinfo, .billeder, .beskrivelse {
+text-align: center;
+margin-top: 50px;
+}
+.arraninfo input,.eventinfo input{
+text-align: center;
+
+}
+
+.felter, .line{
+display: flex;
+padding: 10px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 7px;
+width: 253px;
+font-size: 10px;
+border-color: #000000;
+}
+
+.felter {
+width: 253px;
+}
+
+.bibe {
+font-size: 20px;
+}
+
+.filerknap {
+  background-color: white;
+  border-radius: 7px;
+  border: solid;
+  border-color: #000000;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-inline: 180px;
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+
+.beskiv {
+width: 288px;
+height: 258px;
+font-size: 10px;
+border-color: #000000;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding: 10px;
+margin-top: 10px;
+}
+
+.jatilsend{
+  font-size: 15px;
+  color: #21444E;
+}
+
+.sendknap {
+  background-color: #21444E;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+/*Opret event siden*/
+.eventboks{
+    height: 258px;
+    background-color: #ED6B78;
+    margin-top: 25px;
+}
+.eventbutton {
+    background-color: #21444E;
+    width: 80px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-inline: 180px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
+  }
+
+  .eventbuttontilmeld{
+    background-color: #21444E;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+  }
+
+/*Kontakt siden*/
+.tekstkontakt {
+  text-align: center;
+  font-size: 15px;
+}
+
+.grønfarve {
+  color: #12454F;
+}
+
+.kontaktoverskrift {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tekstuclk {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.tekstkontaktp {
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+
+.oftess {
+  height: 34px;
+  width: 316px;
+  background-color: white;
+  border: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.oftesstekst {
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.oftesidst {
+  margin-bottom: 30px;
+}
+
+.student{
+width: 400px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*Bowling event*/
+.bagrundsbjælke{
+  background-color:#E5F1F0;
+}
+
+.bannerbowling{
+    background-color:#12454F;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.bowlinginfo{
+    text-align: center;
+
+}
+
+.tilmedlingblanket{
+width: 314px;
+height: 410px;
+background-color: #FF6075;
+margin: auto;
+border-radius: 25px;
+}
+
+.inputfelter{
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 186px;
+  font-size: 11px;
+  border-color: #000000;
+  border-style:solid;
+}
+
+.bowlingkejler{
+width: 50vh;
+height: 30vh;
+margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+.tilmelddignu{
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tekstitilmeld{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* det der holder tjek boksen det hele */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  justify-content: space-evenly;
+}
+
+/* gemmer tjek boks */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* layout på tjek boks*/
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #00FF00;
+  border-radius: 50px;
+}
+
+/* hover eFFekt */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* når tjek boks er tjekket, bliver grøn baggrund */
+.container input:checked ~ .checkmark {
+  background-color: #FFFFFF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  position: absolute;
+  display: none;
+}
+
+/* viser tjek eFter den er tjekket */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.tekstiblanket{
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+#tekst1{
+  margin-left: 30px;
+}
+#tekst2{
+  margin-left: -36px;
+}
+
+@media only screen and (min-width: 1080px) {
+
+    /*Footer*/
+  footer {
+      padding: 20px;
+      text-align: left;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      }
+      .pfooter, .footer, .sfooter {
+        width: 30%;
+      }
+      .pfooter h3 {
+        font-size: 30px;
+      }
+      .pfooter p {
+        margin: 0;
+        font-size: 25px;
+      }
+
+      .pfooter img {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+        height: 49px;
+        width: 49px;
+      }
+
+      .footer ul li a{
+        font-size: 30px;
+      }
+
+      .sfooter p {
+        font-size: 30px;
+      }
+
+
+    .musikbilledeiboks{
+     display: flex;
+     flex-direction: row;
+    }
+
+    .eventtilboks{
+      display: none;
+      visibility: hidden;
+    }
+   .eventbutton{
+    margin: auto;
+   }
+   .eventboks{
+    columns: 2;
+   }
+
+  .eventtilboks2{
+    visibility:visible;
+    width: 100%;
+    height: 258px;
+    display: flex;
+  }
+  /*Forsiden*/ 
+  .forsideboks1 {
+    display: inline;
+    display: block;
+    width: 279px;
+    height: 371px;
+    background-color: #E5F1F0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tekstiboks1{
+    color:#12454F;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+  }
+.boksflex{
+  display: flex;
+}
+ 
+  /*Event siden*/
+
+  .bowlingsection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks1 {
+    height: 400px;
+    width: 1500px;
+    margin-left: 100px;
+    order: 1;
+  }
+
+
+  .bowlingimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(-100px, -45px);
+    order: 2;
+  }
+
+  .bowlingtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .bowlingoverskift {
+    margin-top: 10px;
+  }
+
+  .konkurrencesection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks2 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .konkurrenceimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -60px);
+    margin-left: 100px;
+  }
+
+  .eventtekst {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .eventoverskift {
+    margin-top: 10px;
+  }
+
+
+  .tursection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks3 {
+    height: 400px;
+    width: 1500px;
+    margin-left: 100px;
+    order: 1;
+  }
+
+
+  .turimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(-200px, -45px);
+    order: 2;
+  }
+
+  .pubcrawlsection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .eventboks4 {
+    height: 400px;
+    width: 1500px;
+    margin-right: 100px;
+  }
+
+  .pubcrawlimg {
+    width: 1000px;
+    height: auto;
+    transform: translate(100px, -35px);
+    margin-left: 100px;
+  }
+
+  /*Bowling*/
+  .bbbowling{
+    display: flex;
+  }
+
+  .bowlingkejler {
+    order: 2;
+    width: auto;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+  }
+
+  .pogi {
+    order: 1;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .tilmedlingblanket {
+    width: 400px;
+    height: 510px;
+  }
+
+  .tilmelddignu {
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tekstitilmeld {
+    margin-bottom: 30px;
+  }
+
+  .inputfelter {
+    margin-bottom: 20px;
+    width: 270px;
+    font-size: 15px;
+    border-color: #000000;
+    border-style:solid;
+  }
+
+  .tekstiblanket {
+    font-size: 11px;
+  }
+
+  .container {
+    padding-left: 36px;
+  }
+
+  .eventbuttontilmeld {
+    margin-top: 30px;
+  }
+
+  /*Kontakt siden*/
+  .flexkontakt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .uclsoverskrift {
+    margin-left: 430px;
+    margin-top: 50px;
+  }
+
+  .student {
+    margin-left: 170px;
+    margin-bottom: 50px;
+  }
+
+  .tekstkontaktp {
+    margin-right: 200px;
+    font-size: 15px;
+  }
+
+  .oftess {
+    width: 80vh;
+  }
+
+}
