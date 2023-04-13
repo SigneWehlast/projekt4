@@ -598,7 +598,7 @@ margin-right: auto;
 #list-items {
  display: none;
  position: absolute;
- background-color: white;  
+ background-color: white;
  min-width: 185px;
 
 }
@@ -606,7 +606,7 @@ margin-right: auto;
 #list-items a {
   display: block;
   font-size: 18px;
-  background-color: white;  
+  background-color: white;
   color: black;
   text-decoration: none;
   padding: 10px;
@@ -693,11 +693,11 @@ margin-right: auto;
         width: 30%;
       }
       .pfooter h3 {
-        font-size: 30px;
+        font-size: 25px;
       }
       .pfooter p {
         margin: 0;
-        font-size: 25px;
+        font-size: 15px;
       }
 
       .pfooter img {
@@ -709,11 +709,11 @@ margin-right: auto;
       }
 
       .footer ul li a{
-        font-size: 30px;
+        font-size: 25px;
       }
 
       .sfooter p {
-        font-size: 30px;
+        font-size: 25px;
       }
 
 
