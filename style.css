@@ -146,10 +146,66 @@ margin-bottom: 8px;
 
 }
 /*Countdown*/
-#countdownid {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+
+.countdownbaggrund {
+  background: rgba(229, 241, 240, 0.5);
+  width: 380px;
+  margin: auto;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.countdownboks {
+  background-color: #12454F;
+  width: 90%;
+  height: 40%;
+  margin: auto;
+}
+
+.countdowntekst2 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 100px;
+}
+
+.countdowntekst3 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 50px;
+}
+
+.countdowntekst1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+#indtilnæsteevent {
+  padding-top: 10px;
+}
+
+.linje {
+  border-left: 3px solid white;
+  height: 90%;
+}
+
+.linje1 {
+  margin-left: 100px;
+  margin-top: -75px;
+}
+
+.linje2 {
+  margin-left: 220px;
+  margin-top: -65px;
 }
 
 /*slideshow*/
