@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="java/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -20,17 +20,44 @@
     </header>
     <main>
         <section class="slideshow">
-            <img id="slideshowbillede" src="img/event.jpg" alt="billede af fest">
-            <div id="slideshowid"></div>
-            <div class="countdownbaggrund">
-                <p class="countdowntekst1" id="indtilnæsteevent">Indtil næste event</p>
-                <p class="countdowntekst1" id="næsteevent">Bowling</p>
-                <div class="countdownboks">
-                    <div class="countdowntekst2"  id="countdownid"></div>
-                    <div class="countdowntekst3" id="dtm"></div>
-                    <div class="linje linje2"></div>
-                    <div class="linje linje1"></div>
+            <div class="slideshow">
+
+                <div class="slides fade">
+                  <img class="billederedigering" src="/img/drinks.jpg">
+                <!--<-->
+                  <div class="countdownbaggrund">
+                    <p class="countdowntekst1" id="indtilnæsteevent">Indtil næste event</p>
+                    <p class="countdowntekst1" id="næsteevent">Bowling</p>
+                    <div class="countdownboks">
+                        <div class="countdowntekst2"  id="countdownid"></div>
+                        <div class="countdowntekst3" id="dtm"></div>
+                        <div class="linje linje2"></div>
+                        <div class="linje linje1"></div>
+                    <!--<-->    
+                    </div>
                 </div>
+                </div>
+                
+                <div class="slides fade">
+                  <img class="billederedigering" src="/img/event.jpg">
+             
+                </div>
+            
+                <div class="slides fade">
+                  <img class="billederedigering" src="/img/skov.jpg">
+             
+                </div>
+                
+                
+                </div>
+                <div class="dots">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+            
+            </div>
+        
             </div>
             <!--Slideshow og countdown-->
         </section>
@@ -72,7 +99,7 @@
         <section>
             <!--Opret event-->
             <br>
-        
+
             <img class="eventtilboks" src="img/eventtilboks.png" alt="billede af fest">
             <div class="eventboks">
                 <img class="eventtilboks2" src="img/eventtilboks.png" alt="billede af fest">
