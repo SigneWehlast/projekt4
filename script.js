@@ -35,12 +35,13 @@ for(let i = 0; i < dtmArray.length; i++) {
 
 //Aimi
 //dropdown vises og gemmes
-function show_hide() {
-   var click = document.getElementById("list-items");
-   if(click.style.display ==="none") {
-      click.style.display ="block";
-   } else {
-      click.style.display ="none";
+type="text/javascript">
+
+function getOption() {
+    selectElement = document.querySelector('#select1');
+    output = selectElement.options[selectElement.selectedIndex].value;
+    document.querySelector('.output').textContent = output;
+}
    }
 }
 //Claudia
