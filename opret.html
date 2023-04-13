@@ -31,20 +31,21 @@
         </section>
 
         <section>
+           <form id="myForm">
           <div class="arraninfo">
             <p class="dit">Arrangør information</p>
 
               <p class="eget">Arrangørs fulde navn:</p>
-              <input type="text" placeholder="Fornavn og Efternavn" class="felter">
+              <input type="text" id="name" placeholder="Fornavn og Efternavn" class="felter">
               </input>
               <p class="eget">Arrangørs e-mail:</p>
-              <input type="text" placeholder="eksempel@domæne.com" class="felter">
+              <input type="email" id="email" placeholder="eksempel@domæne.com" class="felter">
               </input>
               <p class="eget">Uddannelse:</p>
               <input type="text" placeholder="Multimediedesigner" class="felter">
               </input>
 
-          </div>
+
         </section>
 
 
@@ -52,28 +53,49 @@
             <div class="eventinfo">
               <p class="dit">Event information</p>
 
-              <p>Titel på event:</p>
+              <p class="eget">Titel på event:</p>
               <input type="text" placeholder="Eventet" class="felter">
               </input>
-              <p>Lokation/Mødested:</p>
+              <p class="eget">Lokation/Mødested:</p>
               <input type="text" placeholder="Havnegade 36,5000 Odense" class="felter">
               </input>
-              <p>Dato:</p>
+
+              <div class="leftpris">
+                <p class="eget">Dato:</p>
+              </div>
+
+              <div class="rightpris">
+                <p class="eget">Start tidspunkt:</p>
+              </div>
+
+              <div class="input-deler">
               <input type="text" placeholder="xx/xx-xxxx" class="felter">
               </input>
-              <p>Start tidspunkt:</p>
+
               <input type="text" placeholder="00:00" class="felter">
               </input>
-              <p>Hvem kan deltage:</p>
+              </div>
+
+              <p class="eget">Hvem kan deltage:</p>
               <input type="text" placeholder="Uddannelser" class="felter">
               </input>
-              <p>Pris:</p>
+              <div class="leftpris">
+                <p class="eget">Pris:</p>
+              </div>
+
+              <div class="rightpris">
+                <p class="eget">Antal pladser:</p>
+              </div>
+
+              <div class="input-deler">
+
               <input type="text" placeholder="xx kr./gratis" class="felter">
               </input>
-              <p>Antal pladser:</p>
+
               <input type="text" placeholder="xx" class="felter">
               </input>
-              <p>Tilmeldingsfrist:</p>
+              </div>
+              <p class="eget">Tilmeldingsfrist:</p>
               <input type="text" placeholder="xx/xx-xxxx" class="felter">
               </input>
 
@@ -84,7 +106,7 @@
             <div class="billeder">
               <p class="bibe">Billede(r)</p>
             <a href="#" class="filerknap">Vælg fil(er)</a>
-              <p>Der er ikke valgt nogen fil</p>
+              <p class="eget">Der er ikke valgt nogen fil</p>
             </div>
           </section>
 
@@ -102,11 +124,16 @@
             <span class="checkmark"></span>
             </label>
 
-            <a href="#" class="sendknap">Send</a>
+            <button id="submit" class="sendknap">Send</button>
 
             </div>
+            </form>
+            <div id="popup">
+              <p>Tak fordi du bidrager til
+                fællesskabet på UCL!, <span id="userName"></span>!</p>
+            </div>
+            </div>
           </section>
-
 
 
     <footer>
