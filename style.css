@@ -483,7 +483,7 @@ margin: auto;
 border-radius: 25px;
 }
 
-.inputfelter{
+.inputfelter {
   display: flex;
   padding: 10px;
   margin-top: 10px;
@@ -516,6 +516,7 @@ margin-right: auto;
   color: #FFFFFF;
   text-align: center;
 }
+
 /*dropdown*/
 /* Position for dropdown*/
 .dropdown {
@@ -525,13 +526,23 @@ margin-right: auto;
 /* størrelse på knap */
 .buttondrop {
   padding: 10px 30px;
-  font-size: 15px;
+  font-size: 11px;
   border-radius: 20px;
+  margin-bottom: 20px;
+  width: 186px;
+  border-color: #000000;
+  border-style:solid;
+  display: flex;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 /* baggrund for dropdown */
 #list-items {
  display: none;
  position: absolute;
+ background-color: white;  
  min-width: 185px;
 
 }
@@ -539,6 +550,7 @@ margin-right: auto;
 #list-items a {
   display: block;
   font-size: 18px;
+  background-color: white;  
   color: black;
   text-decoration: none;
   padding: 10px;
@@ -831,7 +843,7 @@ margin-right: auto;
     margin-bottom: 30px;
   }
 
-  .inputfelter , .buttondrop {
+  .inputfelter {
     margin-bottom: 20px;
     width: 270px;
     font-size: 15px;
