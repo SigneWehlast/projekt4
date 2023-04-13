@@ -60,6 +60,4 @@ function getOption() {
     output = selectElement.options[selectElement.selectedIndex].value;
     document.querySelector('.output').textContent = output;
 }
-   }
-}
 //Claudia er i mappen event.js
