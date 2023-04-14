@@ -160,7 +160,7 @@ margin-bottom: 8px;
   right: 60px;
 }
 
-.countdownboks {
+#countdownboks {
   background-color: #12454F;
   width: 90%;
   height: 40%;
@@ -212,6 +212,8 @@ margin-bottom: 8px;
   margin-left: 220px;
   margin-top: -65px;
 }
+
+
 
 /*slideshow*/
 #slideshowbillede {
