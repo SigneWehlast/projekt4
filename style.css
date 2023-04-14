@@ -844,6 +844,15 @@ margin-right: auto;
 h1 {
   font-size: 25px;
 }
+.billederedigering{
+  width: 1440px;
+  height: auto;
+}
+
+.slideshow{
+max-width: none;
+flex-direction: none;
+}
 
   /*Event siden*/
 
