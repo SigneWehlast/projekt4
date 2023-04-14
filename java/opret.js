@@ -15,3 +15,11 @@ myForm.addEventListener("submit", function(event) {
     popup.style.display = "block";
   }
 });
+
+ let closeBtn = document.getElementById("closeBtn");
+
+closeBtn.addEventListener("click", function() {
+
+  let popup = document.getElementById("popup");
+  popup.style.display = "none";
+});
