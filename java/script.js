@@ -75,6 +75,9 @@ function skrivDato() {
 }
 
 //Aimi
+
+let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
+
 //dropdown vises og gemmes
 type="text/javascript">
 
