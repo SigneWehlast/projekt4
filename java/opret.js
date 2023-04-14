@@ -16,7 +16,7 @@ myForm.addEventListener("submit", function(event) {
   }
 });
 
- let closeBtn = document.getElementById("closeBtn");
+ let closeBtn = document.getElementById("lukbtn");
 
 closeBtn.addEventListener("click", function() {
 
