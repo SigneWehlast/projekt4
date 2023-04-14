@@ -21,10 +21,10 @@ function showSlides() {
 
 let tekst = ["Tur", "tid", "andet"]
 for(let i = 0; i < tekst.length; i++) {
-  document.getElementById("tekst").innerHTML += tekst[i] + " "; //den printer teksten i som her vil være tur, hvor den så pludser det med et mellemrum hvor variabel i array
+  document.getElementById("tekst").innerHTML += tekst[i] + " ";
 }
 function tekstskifterfarve() {
-  document.getElementById("tekst").style.color = "#00DD00"; //den skal tage Funktionen tekstkiFterFarve og ved et onclick skal den ændre tekst Farve
+  document.getElementById("tekst").style.color = "#00DD00";
 }
 //Signe
 
