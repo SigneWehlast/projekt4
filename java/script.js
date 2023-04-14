@@ -52,8 +52,14 @@ for(let i = 0; i < dtmArray.length; i++) {
     document.getElementById("dtm").innerHTML += dtmArray[i] + " ";
 }
 
+const bowlingEvent = {
+  dagBowling: "5. maj",
+  årBowling: "2023",
+  tidBowling: "17:00"
+};
+
 function skrivDato() {
-  document.getElementById("countdownboks").innerHTML = " Eventet er den <br> 5. maj 2023 kl. 17:00";
+  document.getElementById("countdownboks").innerHTML = "Eventet er den <br>" +  bowlingEvent.dagBowling + " " + bowlingEvent.årBowling + " " + "kl. " + bowlingEvent.tidBowling;
   document.getElementById("countdownboks").style.color = "white";
   document.getElementById("countdownboks").style.fontWeight = "bold";
   document.getElementById("countdownboks").style.textAlign = "center";
