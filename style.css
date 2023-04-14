@@ -405,9 +405,9 @@ font-size: 20px;
 text-align: center;
 margin-top: 50px;
 }
+
 .arraninfo input,.eventinfo input{
 text-align: center;
-
 }
 
 .felter, .line{
@@ -437,13 +437,14 @@ border-color: #000000;
     margin-left: 10px;
       }
 
-.leftpris p {
-  margin-right: 250px;
-  margin-bottom: -40px;
-}
-.rightpris p {
-  margin-left: 250px;
-}
+    .leftpris p {
+    margin-right: 250px;
+    margin-bottom: -40px;
+    }
+
+    .rightpris p {
+    margin-left: 250px;
+    }
 
 .felter {
 width: 253px;
@@ -479,7 +480,6 @@ margin-right: auto;
 display: flex;
 padding: 10px;
 margin-top: 10px;
-
 }
 
 .jatilsend{
@@ -1054,5 +1054,13 @@ h1 {
         font-size: 20px;
       }
 
+      .leftpris p {
+      margin-right: 250px;
+      margin-bottom: -55px;
+      }
+
+      .rightpris p {
+      margin-left: 250px;
+      }
 
 }
