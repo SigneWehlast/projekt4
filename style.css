@@ -114,12 +114,23 @@ margin-bottom: 8px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #12454F;
-    padding: 20px;
+    padding: 20px 30px 50px;
     border-radius: 7px;
-    color: white;
+    color: #F6FBFB;
     box-shadow: 0px 0px 10px black;
     text-align: center;
   }
+
+  #popup p{
+    margin-bottom: 30px;
+    }
+
+  #lukbtn {
+    padding: 5px 40px;
+    background-color: #ED6B78;
+    border: none;
+    border-radius: 7px;
+}
 
 /*Forsiden*/
 .overskriftbaggrund {
@@ -1021,15 +1032,15 @@ h1 {
   /*Oprettelse af event*/
 
         .dit{
-       font-size: 40px;
+       font-size: 1.5em;
       }
 
       .eget {
-       font-size: 25px;
+       font-size: 18px;
       }
 
       .felter, .line{
-      font-size: 15px;
+      font-size: 12px;
       }
 
       .beskiv {
@@ -1056,11 +1067,16 @@ h1 {
 
       .leftpris p {
       margin-right: 250px;
-      margin-bottom: -55px;
+      margin-bottom: -45px;
       }
 
       .rightpris p {
       margin-left: 250px;
       }
+
+        #popup p{
+          font-size: 20px;
+          }
+
 
 }
