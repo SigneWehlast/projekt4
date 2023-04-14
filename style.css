@@ -50,6 +50,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     color: white;
+    margin: auto;
 }
 
 /*Navigation*/
@@ -158,6 +159,7 @@ margin-bottom: 8px;
   visibility: hidden;
 
 }
+
 /*Countdown*/
 
 .countdownbaggrund {
@@ -171,7 +173,7 @@ margin-bottom: 8px;
   right: 60px;
 }
 
-.countdownboks {
+#countdownboks {
   background-color: #12454F;
   width: 90%;
   height: 40%;
@@ -224,6 +226,8 @@ margin-bottom: 8px;
   margin-top: -65px;
 }
 
+
+
 /*slideshow*/
 #slideshowbillede {
     width: 100%;
@@ -255,6 +259,30 @@ display: none;
     margin: auto;
     padding-top: 25px;
     text-align: center;
+}
+.tekstiboks3{
+  color: white;
+  margin: auto;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.rundtomopretboks {
+  padding-top: 50px;
+}
+
+.forsideknap {
+  background-color: #21444E;
+    width: 80px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 
 /*Slideshow billeder */
@@ -592,12 +620,13 @@ margin-right: auto;
 
 .bannerbowling{
     background-color:#12454F;
-    height: 70px;
+    height: 68px;
     color: white;
     text-align: center;
     font-weight: bold;
-    padding-top: 10px;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .bowlinginfo{
     text-align: center;
@@ -795,6 +824,24 @@ margin-right: auto;
   }
 .boksflex{
   display: flex;
+}
+
+.tekstiboks3{
+  font-size: 20px;
+}
+
+.rundtomopretboks {
+  padding-top: 40px;
+}
+
+.forsideknap {
+  height: 25px;
+  width: 100px;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 25px;
 }
 
   /*Event siden*/

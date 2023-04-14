@@ -20,6 +20,7 @@ function showSlides() {
 }
 
 //Signe
+
 let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
 
 let countDown = setInterval(function() {
@@ -49,6 +50,14 @@ let dtmArray = ["Dage", "Timer", "Minutter"];
 
 for(let i = 0; i < dtmArray.length; i++) {
     document.getElementById("dtm").innerHTML += dtmArray[i] + " ";
+}
+
+function skrivDato() {
+  document.getElementById("countdownboks").innerHTML = " Eventet er den <br> 5. maj 2023 kl. 17:00";
+  document.getElementById("countdownboks").style.color = "white";
+  document.getElementById("countdownboks").style.fontWeight = "bold";
+  document.getElementById("countdownboks").style.textAlign = "center";
+  document.getElementById("countdownboks").style.fontSize = "22px";
 }
 
 //Aimi
