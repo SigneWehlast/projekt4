@@ -100,11 +100,11 @@ dropdown.addEventListener('change', () => {
   let valgtMulighed = dropdown.value;
   console.log(valgtMulighed);
 });
-//dropdown vises og gemmes
+
 type="text/javascript">
 
 function getOption() {
-    selectElement = document.querySelector('#select1');
+    selectElement = document.querySelector('Multimediedesigner');
     output = selectElement.options[selectElement.selectedIndex].value;
     document.querySelector('.output').textContent = output;
 }
