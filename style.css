@@ -798,7 +798,14 @@ margin-right: auto;
         height: 29px;
         width: 29px;
       }
+  
+  .tekstheader {
+      font-size: 20px;
+  }
 
+  #logo {
+    height: 7vh;
+  }
 
     .musikbilledeiboks{
      display: flex;
