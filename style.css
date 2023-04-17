@@ -132,6 +132,22 @@ margin-bottom: 8px;
     border-radius: 7px;
 }
 
+.lukknape, .easterknap {
+  background-color: #ED6B78;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  }
+
+  
+
 /*Forsiden*/
 .overskriftbaggrund {
     height: 68px;
