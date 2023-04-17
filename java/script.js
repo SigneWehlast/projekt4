@@ -31,7 +31,6 @@ const skovbillede = {
   substantiv1: "Skoven",
   pronomen: "en",
 };
-
 document.getElementById("tekstjs").innerHTML =
 skovbillede.substantiv1 + " har " + skovbillede.pronomen + "bro";
 
@@ -43,7 +42,6 @@ if (Karakter <=10){
 } else {
   console.log ("Prøv igen");
 }
-
 //Signe
 
 let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
@@ -77,15 +75,15 @@ for(let i = 0; i < dtmArray.length; i++) {
     document.getElementById("dtm").innerHTML += dtmArray[i] + " ";
 }
 
-const events = {
-  dag: "5. maj",
-  år: "2023",
-  tid: "17:00"
+const bowlingEvent = {
+  dagBowling: "5. maj",
+  årBowling: "2023",
+  tidBowling: "17:00"
 };
 
 //onclick event
 function skrivDato() {
-  document.getElementById("countdownboks").innerHTML = "Eventet er den <br>" +  events.dag + " " + events.år + " kl. " + events.tid;
+  document.getElementById("countdownboks").innerHTML = "Eventet er den <br>" +  bowlingEvent.dagBowling + " " + bowlingEvent.årBowling + " kl. " + bowlingEvent.tidBowling;
   document.getElementById("countdownboks").style.color = "white";
   document.getElementById("countdownboks").style.fontWeight = "bold";
   document.getElementById("countdownboks").style.textAlign = "center";
@@ -96,6 +94,12 @@ function skrivDato() {
 
 let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
 
+let dropdown = document.querySelector('#dropdown');
+
+dropdown.addEventListener('change', () => {
+  let valgtMulighed = dropdown.value;
+  console.log(valgtMulighed);
+});
 //dropdown vises og gemmes
 type="text/javascript">
 
