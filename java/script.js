@@ -31,7 +31,7 @@ const skovbillede = {
   substantiv1: "Skoven",
   pronomen: "en",
 };
-// Display some data from the object:
+
 document.getElementById("tekstjs").innerHTML =
 skovbillede.substantiv1 + " har " + skovbillede.pronomen + "bro";
 
