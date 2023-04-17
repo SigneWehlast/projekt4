@@ -875,6 +875,48 @@ flex-direction: none;
   height: 550px;
 }
 
+.countdownbaggrund {
+  width: 760px;
+  height: 440px;
+  top: 55px;
+  right: 250px;
+}
+
+#countdownboks {
+  height: 53%;
+}
+
+.countdowntekst2 {
+  font-size: 40px;
+  padding-top: 40px;
+  word-spacing: 200px;
+}
+
+.countdowntekst3 {
+  font-size: 40px;
+  padding-top: 40px;
+  word-spacing: 100px;
+}
+
+.countdowntekst1 {
+  font-size: 30px;
+}
+
+.linje {
+  border-left: 5px solid white;
+  height: 90%;
+}
+
+.linje1 {
+  margin-left: 420px;
+  margin-top: -210px;
+}
+
+.linje2 {
+  margin-left: 215px;
+  margin-top: -175px;
+}
+
   /*Event siden*/
 
   .bowlingsection {
