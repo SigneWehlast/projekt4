@@ -870,6 +870,11 @@ max-width: none;
 flex-direction: none;
 }
 
+.billederedigering {
+  width: 100%;
+  height: 550px;
+}
+
   /*Event siden*/
 
   .bowlingsection {
