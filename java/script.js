@@ -26,6 +26,24 @@ for(let i = 0; i < tekst.length; i++) {
 function tekstskifterfarve() {
   document.getElementById("tekst").style.color = "#00DD00";
 }
+//Objekt//
+const skovbillede = {
+  substantiv1: "Skoven",
+  pronomen: "en",
+};
+// Display some data from the object:
+document.getElementById("tekstjs").innerHTML =
+skovbillede.substantiv1 + " har " + skovbillede.pronomen + "bro";
+
+//If else//
+let Karakter = 10;
+
+if (Karakter <=10){
+  console.log ("Godt arbejde");
+} else {
+  console.log ("Prøv igen");
+}
+
 //Signe
 
 let countDownBowling = new Date("May 5, 2023 17:00:00").getTime();
