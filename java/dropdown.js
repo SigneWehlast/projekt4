@@ -2,11 +2,11 @@
 
 let select_element = document.getElementById("dropdownselect");
 
-let uddannelser = ["Multimediedesigner", "Markedsøkonom", "Finansøkonom",]
+let options = ["Multimediedesigner", "Markedsøkonom", "Finansøkonom",]
 
 select_element.innerHTML = "";
 
-for(let i = 0; i < uddannelser.length; i++) {
-    let opt = uddannelser[i];
+for(let i = 0; i < options.length; i++) {
+    let opt = options[i];
     select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";
 }
