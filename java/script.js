@@ -91,7 +91,10 @@ function skrivDato() {
 }
 
 //Aimi
-let selectElement = document.getElementById ("dropdownselect") ;
+
+console.log ("hej");
+
+let selectElement = document.getElementById ("dropdownselect");
 
 let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
 
@@ -101,4 +104,5 @@ for(let i = 0; i < options.length; i++) {
     let opt = options[i];
     select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";
 }
+
 //Claudia er i mappen opret.js
