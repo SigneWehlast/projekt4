@@ -91,21 +91,14 @@ function skrivDato() {
 }
 
 //Aimi
+let selectElement = document.getElementById ("dropdownselect") ;
 
 let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
 
 let dropdown = document.querySelector('#dropdown');
 
-dropdown.addEventListener('change', () => {
-  let valgtMulighed = dropdown.value;
-  console.log(valgtMulighed);
-});
-
-type="text/javascript">
-
-function getOption() {
-    selectElement = document.querySelector('Multimediedesigner');
-    output = selectElement.options[selectElement.selectedIndex].value;
-    document.querySelector('.output').textContent = output;
+for(let i = 0; i < options.length; i++) {
+    let opt = options[i];
+    select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";
 }
 //Claudia er i mappen opret.js
