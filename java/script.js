@@ -92,16 +92,12 @@ function skrivDato() {
 
 //Aimi
 
-console.log ("hej");
-
 let selectElement = document.getElementById ("dropdownselect");
 
 let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
 
-let dropdown = document.querySelector('#dropdown');
-
-for(let i = 0; i < options.length; i++) {
-    let opt = options[i];
+for(let i = 0; i < uddannelser.length; i++) {
+    let uddannelser = options[i];
     select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";
 }
 
