@@ -92,13 +92,14 @@ function skrivDato() {
 
 //Aimi
 
-let selectElement = document.getElementById ("dropdownselect");
+let select_element = document.getElementById("dropdownselect");
 
-let uddannelser = ['Multimediedesigner', 'Markedsøkonom', 'Finansøkonom'];
+let uddannelser = ["Multimediedesinger", "Markedsøkonom", "Finansøkonom",]
 
-for(let i = 0; i < uddannelser.length; i++) {
+select_element.innerHTML = "";
+
+for(let i = 0; i < options.length; i++) {
     let uddannelser = options[i];
     select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";
 }
-
 //Claudia er i mappen opret.js
