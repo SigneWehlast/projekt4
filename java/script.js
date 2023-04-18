@@ -75,15 +75,15 @@ for(let i = 0; i < dtmArray.length; i++) {
     document.getElementById("dtm").innerHTML += dtmArray[i] + " ";
 }
 
-const bowlingEvent = {
-  dagBowling: "5. maj",
-  årBowling: "2023",
-  tidBowling: "17:00"
+const events = {
+  dag: "5. maj",
+  år: "2023",
+  tid: "17:00"
 };
 
 //onclick event
 function skrivDato() {
-  document.getElementById("countdownboks").innerHTML = "Eventet er den <br>" +  bowlingEvent.dagBowling + " " + bowlingEvent.årBowling + " kl. " + bowlingEvent.tidBowling;
+  document.getElementById("countdownboks").innerHTML = "Eventet er den <br>" +  events.dag + " " + events.år + " kl. " + events.tid;
   document.getElementById("countdownboks").style.color = "white";
   document.getElementById("countdownboks").style.fontWeight = "bold";
   document.getElementById("countdownboks").style.textAlign = "center";
