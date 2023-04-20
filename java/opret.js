@@ -21,7 +21,7 @@
 		popup.style.display = 'none';
 	}
 
-	// Funktion til at lukke popup
+	// Funktion til att lukke popup
 	function closePopup() {
 		const popup = document.getElementById('popu');
 		popup.style.display = 'none';
